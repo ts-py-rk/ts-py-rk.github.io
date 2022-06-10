@@ -124,6 +124,7 @@ var startags = {
 	'hashlib': 3,
 	'json': 3,
 	'logging': 3,
+	'mypy': 3,
 	'openpyxl': 3,
 	'os': 3,
 	'PIL': 2,
@@ -155,10 +156,10 @@ hover_list.set('id_6', ['Photoshop_CS', 'Power_Point', 'pptx']);
 hover_list.set('id_7', ['Linux', 'PostgerSQL']);
 hover_list.set('id_8', ['Python', 'Linux', 'PostgerSQL',]);
 hover_list.set('id_9', ['Python', 'django',]);
-hover_list.set('id_10', ['Python', 'Console', 'pyperclip', 'time', 'socket', 'pickle', 'threading', 'sys', 'select', ]);
-hover_list.set('id_11', ['Photoshop_CS', 'PyCharm', 'Sublime_Text', 'Syblime_Merget', 'Python', 'GIT', 'HTML', 'CSS', 'django', 'collections', 'datetime', 'calendar', 'hashlib', 'logging', 'pytils', 'sqlite',]);
-hover_list.set('id_12', ['Python', 'GIT', 'CSS', 'JavaScript', 'django', 'BeautifulSoup', 'collections', 'json', 'openpyxl', 'logging', 'os', 'sqlite', ]);
-hover_list.set('id_13', ['Python', 'Console', 'pyperclip', 'gcode', 'logging']); 
+hover_list.set('id_10', ['Python', 'Console', 'pyperclip', 'time', 'socket', 'pickle', 'threading', 'sys', 'select', ]); // copy_net_past
+hover_list.set('id_11', ['Photoshop_CS', 'PyCharm', 'Sublime_Text', 'Syblime_Merget', 'Python', 'GIT', 'HTML', 'CSS', 'django', 'collections', 'datetime', 'calendar', 'hashlib', 'logging', 'pytils', 'sqlite',]); // raspisanie
+hover_list.set('id_12', ['Python', 'GIT', 'CSS', 'JavaScript', 'django', 'BeautifulSoup', 'collections', 'json', 'openpyxl', 'logging', 'os', 'sqlite', ]); // portfolio
+hover_list.set('id_13', ['Python', 'Console', 'pyperclip', 'gcode', 'logging', 'mypy']);  // gcode_editor
 
 
 for (let i = 1; i <= hover_list.size; i++) {
